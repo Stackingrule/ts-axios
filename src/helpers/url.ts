@@ -12,7 +12,7 @@ function encode(val: string) : string {
 }
 
 
-export function buildURL(url: string, params?: any) {
+export function buildURL(url: string, params?: any): any {
 
   if(!params) {
     return url
@@ -22,11 +22,6 @@ export function buildURL(url: string, params?: any) {
 
   Object.keys(params).forEach((key) => {
     let val = params[key]
-
-
   })
-
-
-
 
 }
